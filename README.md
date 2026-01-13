@@ -1,7 +1,9 @@
 Project Overview
+
 This project is a Sudoku solver developed in DrRacket to explore functional programming and algorithmic efficiency. It currently successfully solves puzzles using a recursive approach.
 
 Technical Implementation
+
 The solver is built on the following foundations:
 
 Backtracking Algorithm: Uses a depth-first search strategy to explore potential solutions and revert when constraints are violated.

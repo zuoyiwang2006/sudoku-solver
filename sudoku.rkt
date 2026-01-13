@@ -1,14 +1,8 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname sudoku) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor mixed-fraction #f #t none #f () #t)))
-;;
-;; Wyn Wang (21186308)
-;; CS 135 Fall 2025
-;; Assignment 10 problem 01 sudoku
-;;
 
-;;Question 01 part a
-
+;;Part 1
 (define (all-satisfy? pred? mx)
   (local [(define (satisfy? pred? l)
             (cond [(empty? l) true]
